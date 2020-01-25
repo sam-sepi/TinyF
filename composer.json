@@ -8,5 +8,10 @@
             "email": "sam.sepi.84@gmail.com"
         }
     ],
-    "require": {}
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "TinyF\\Database\\": "src/database"
+        }
+    }
 }
