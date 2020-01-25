@@ -1,0 +1,12 @@
+{
+    "name": "sam-sepi/tinyf",
+    "description": "Easy PHP Framework for small web app",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sam Sepi",
+            "email": "sam.sepi.84@gmail.com"
+        }
+    ],
+    "require": {}
+}
