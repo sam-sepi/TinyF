@@ -1,7 +1,7 @@
 <?php
 
 /**
- * PDOWrapper Class for Dependency Injections.
+ * PDOWrapper Class for Dependency Injection
  */
 namespace TinyF\Database;
 
@@ -36,8 +36,7 @@ class PdoWrapper
         ];
 
         $options = (!empty($options)) ? $options : $default_options;
-        
-        
+                
         try {
 
             $this->pdo = new \PDO($dsn, $user, $password, $options);
