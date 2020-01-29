@@ -7,4 +7,6 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'TinyF\\Database\\PdoWrapper' => $baseDir . '/database/PdoWrapper.php',
+    'TinyF\\Models\\ModelWrapper' => $baseDir . '/models/ModelWrapper.php',
+    'TinyF\\Models\\UserModel' => $baseDir . '/models/UserModel.php',
 );

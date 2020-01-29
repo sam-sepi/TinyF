@@ -9,11 +9,16 @@ class ComposerStaticInitc3ef2d18b869c9ec645525f66406c1b1
     public static $prefixLengthsPsr4 = array (
         'T' => 
         array (
+            'TinyF\\Models\\' => 13,
             'TinyF\\Database\\' => 15,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
+        'TinyF\\Models\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/models',
+        ),
         'TinyF\\Database\\' => 
         array (
             0 => __DIR__ . '/../..' . '/database',
@@ -22,6 +27,8 @@ class ComposerStaticInitc3ef2d18b869c9ec645525f66406c1b1
 
     public static $classMap = array (
         'TinyF\\Database\\PdoWrapper' => __DIR__ . '/../..' . '/database/PdoWrapper.php',
+        'TinyF\\Models\\ModelWrapper' => __DIR__ . '/../..' . '/models/ModelWrapper.php',
+        'TinyF\\Models\\UserModel' => __DIR__ . '/../..' . '/models/UserModel.php',
     );
 
     public static function getInitializer(ClassLoader $loader)

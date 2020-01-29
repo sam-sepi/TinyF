@@ -11,7 +11,8 @@
     "require": {},
     "autoload": {
         "psr-4": {
-            "TinyF\\Database\\": "src/database"
+            "TinyF\\Database\\": "database",
+            "TinyF\\Models\\": "models"
         }
     }
 }
