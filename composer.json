@@ -8,5 +8,12 @@
             "email": "sam.sepi.84@gmail.com"
         }
     ],
-    "require": {}
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "TinyF\\Database\\": "database",
+            "TinyF\\Models\\": "models",
+            "TinyF\\Libraries\\": "libraries"
+        }
+    }
 }
