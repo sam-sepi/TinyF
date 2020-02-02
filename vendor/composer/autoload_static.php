@@ -12,6 +12,7 @@ class ComposerStaticInit51a9b7005e19545baad005fd3ef34a7f
             'TinyF\\Models\\' => 13,
             'TinyF\\Libraries\\' => 16,
             'TinyF\\Database\\' => 15,
+            'TinyF\\App\\' => 10,
         ),
     );
 
@@ -28,15 +29,24 @@ class ComposerStaticInit51a9b7005e19545baad005fd3ef34a7f
         array (
             0 => __DIR__ . '/../..' . '/database',
         ),
+        'TinyF\\App\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/app',
+        ),
     );
 
     public static $classMap = array (
+        'TinyF\\App\\Login' => __DIR__ . '/../..' . '/app/Login.php',
+        'TinyF\\App\\Signup' => __DIR__ . '/../..' . '/app/Signup.php',
         'TinyF\\Database\\DbInterface' => __DIR__ . '/../..' . '/database/DbInterface.php',
         'TinyF\\Database\\DbWrapper' => __DIR__ . '/../..' . '/database/DbWrapper.php',
         'TinyF\\Libraries\\Cookie' => __DIR__ . '/../..' . '/libraries/Cookie.php',
         'TinyF\\Libraries\\Request' => __DIR__ . '/../..' . '/libraries/Request.php',
+        'TinyF\\Libraries\\Session' => __DIR__ . '/../..' . '/libraries/Session.php',
         'TinyF\\Libraries\\Validation' => __DIR__ . '/../..' . '/libraries/Validation.php',
+        'TinyF\\Models\\LoginModel' => __DIR__ . '/../..' . '/models/LoginModel.php',
         'TinyF\\Models\\ModelWrapper' => __DIR__ . '/../..' . '/models/ModelWrapper.php',
+        'TinyF\\Models\\UserModel' => __DIR__ . '/../..' . '/models/UserModel.php',
     );
 
     public static function getInitializer(ClassLoader $loader)

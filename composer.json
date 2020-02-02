@@ -13,7 +13,8 @@
         "psr-4": {
             "TinyF\\Database\\": "database",
             "TinyF\\Models\\": "models",
-            "TinyF\\Libraries\\": "libraries"
+            "TinyF\\Libraries\\": "libraries",
+            "TinyF\\App\\": "app"
         }
     }
 }

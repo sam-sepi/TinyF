@@ -23,9 +23,9 @@ class DbWrapper extends PDO implements DbInterface
     public static function getInstance(string $dsn = null, string $user = null, string $password = null, array $options = null)
     {
 
-        $dsn = (isset($dsn)) ? $dsn : "mysql:dbname=tinyf;host=localhost";
+        $dsn = (isset($dsn)) ? $dsn : "mysql:dbname=databasename;host=localhost";
         $user = (isset($user)) ? $user : 'username';
-        $password = (isset($password)) ? $password: 'password';
+        $password = (isset($password)) ? $password: 'passsword';
         
         //Default Opt.
         $default_options = [

@@ -9,4 +9,5 @@ return array(
     'TinyF\\Models\\' => array($baseDir . '/models'),
     'TinyF\\Libraries\\' => array($baseDir . '/libraries'),
     'TinyF\\Database\\' => array($baseDir . '/database'),
+    'TinyF\\App\\' => array($baseDir . '/app'),
 );

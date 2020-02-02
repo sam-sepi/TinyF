@@ -6,10 +6,15 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'TinyF\\App\\Login' => $baseDir . '/app/Login.php',
+    'TinyF\\App\\Signup' => $baseDir . '/app/Signup.php',
     'TinyF\\Database\\DbInterface' => $baseDir . '/database/DbInterface.php',
     'TinyF\\Database\\DbWrapper' => $baseDir . '/database/DbWrapper.php',
     'TinyF\\Libraries\\Cookie' => $baseDir . '/libraries/Cookie.php',
     'TinyF\\Libraries\\Request' => $baseDir . '/libraries/Request.php',
+    'TinyF\\Libraries\\Session' => $baseDir . '/libraries/Session.php',
     'TinyF\\Libraries\\Validation' => $baseDir . '/libraries/Validation.php',
+    'TinyF\\Models\\LoginModel' => $baseDir . '/models/LoginModel.php',
     'TinyF\\Models\\ModelWrapper' => $baseDir . '/models/ModelWrapper.php',
+    'TinyF\\Models\\UserModel' => $baseDir . '/models/UserModel.php',
 );
